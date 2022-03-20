@@ -1,2 +1,2 @@
-export { default as Modal } from "./Modal";
-export * from "./Modal";
+import { Dialog } from "./Modal";
+export default Dialog;
