@@ -126,9 +126,10 @@ export default function Modal(props: ModalProps) {
                         alignItems: "center",
                         justifyContent: "center",
                         overflow: "hidden",
-                        position: "absolute",
+                        position: "fixed",
                         top: "1em",
-                        left: "1em"
+                        left: "1em",
+                        zIndex: 10
                     }}
                 >
                     <span
